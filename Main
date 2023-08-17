@@ -11,8 +11,8 @@ dfhrpsize = Vector3.new(2,2,1)
 end
 
 local Window = Rayfield:CreateWindow({
-	Name = "Nic's Sword Fighting",
-	LoadingTitle = "Thanks For Choosing Us",
+	Name = "sword fight script",
+	LoadingTitle = "sword fight script",
 	LoadingSubtitle = "Made by wowzers!#0560",
 	ConfigurationSaving = {
 		Enabled = true,
@@ -26,12 +26,12 @@ local Window = Rayfield:CreateWindow({
 		Key = "ABCDEF"
 	}
 })
-local Tab = Window:CreateTab("Touch Interest Method")
-local HB = Window:CreateTab("Hitbox Method")
-local BM = Window:CreateTab("Bring Method")
+local Tab = Window:CreateTab("touchn interst")
+local HB = Window:CreateTab("Hitboxs")
+local BM = Window:CreateTab("Bring")
 local CM = Window:CreateTab("Character Mods")
 local B
-local Paragraph = BM:CreateParagraph({Title = "Bring", Content = "Although Nobody Can See When You Are Bringing, It Can Be Effective For Most Hit Registration Systems Are Client Sided"})
+local Paragraph = BM:CreateParagraph({Title = "Bring", Content = "brings kinda stupid sometimes"})
 local Bring = BM:CreateToggle({
 	Name = "Bring All",
 	CurrentValue = false,
@@ -40,7 +40,7 @@ local Bring = BM:CreateToggle({
 B = Value
 	end,
 })
-local Paragraph = HB:CreateParagraph({Title = "Hitboxes.", Content = "Hitboxes are very useful. they are less detectable. and overall sometimes just better."})
+local Paragraph = HB:CreateParagraph({Title = "Hitboxes.", Content = ""})
 
 local ka
 local ex
@@ -49,7 +49,7 @@ local visamt = .5
 local expandamt = 10
 local vis
 local whitelisted = {}
-local Paragraph = Tab:CreateParagraph({Title = "Note:", Content = "Touch Interests May Have Checks For Distance, and can be detected easily. However it is a very effective method for kill alls and more."})
+local Paragraph = Tab:CreateParagraph({Title = "Note:", Content = ""})
 local HBETOG = HB:CreateToggle({
 	Name = "Hitboxes",
 	CurrentValue = false,
